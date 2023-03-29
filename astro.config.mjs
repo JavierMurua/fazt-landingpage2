@@ -4,5 +4,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://JavierMurua.github.io',
+  base: '/fazt-landingpage2',
   integrations: [tailwind()]
 });
